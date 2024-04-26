@@ -1,0 +1,22 @@
+A multivalued attribute in Entity-Relationship (ER) modeling is an attribute that can hold multiple values for a single entity. This means that an entity instance can have more than one value associated with the same attribute. Multivalued attributes are used to represent data elements that can have multiple, distinct values, each of which is typically of the same data type.
+
+For example, consider an entity "Student" with a multivalued attribute "Phone Numbers." A student can have multiple phone numbers (e.g., a home number, a mobile number, and an emergency contact number). In this case, the "Phone Numbers" attribute is multivalued because it can store multiple values.
+
+In ER modeling, multivalued attributes are typically depicted using double ellipses (ovals) to distinguish them from simple attributes. Here's how they are represented:
+
+Attribute Name: The name of the multivalued attribute is placed inside double ellipses. For example, "Phone Numbers" would be represented as "(Phone Numbers)".
+
+Entity: The multivalued attribute is associated with an entity, just like any other attribute. In the ER diagram, you would connect the double ellipses to the entity rectangle using a solid line.
+
+Cardinality: The cardinality of a multivalued attribute is often indicated using "M" (many) to signify that it can hold multiple values. This implies that each instance of the entity can have multiple values for this attribute.
+Example: In an ER diagram, you might see something like this:
+
++-------------+        +-------------------+
+|   Student   |        | (Phone Numbers)  |
++-------------+        +-------------------+
+| StudentID   |--------| Home: 555-1234    |
+| FirstName   |        | Mobile: 555-5678  |
+| LastName    |        | Emergency: 555-9999|
++-------------+        +-------------------+
+
+Here, the "Phone Numbers" attribute is depicted as a multivalued attribute associated with the "Student" entity. Each student can have multiple phone numbers, and the multivalued attribute is used to capture this data.

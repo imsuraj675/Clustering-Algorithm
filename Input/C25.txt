@@ -1,0 +1,3 @@
+A "fan trap" is a modeling issue that can occur in an Entity-Relationship (ER) diagram when there are multiple relationships between three entities, and it creates ambiguity or inconsistency in the data model. The term "fan trap" arises from the way the relationships in the diagram resemble a fan, where one entity connects to two others.
+
+In a fan trap, the ambiguity typically revolves around the cardinality of the relationships between the entities involved, and it can lead to difficulties in interpreting or querying the data model.

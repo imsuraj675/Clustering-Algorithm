@@ -1,0 +1,19 @@
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a computer network. It is divided into seven distinct layers, each with its own specific responsibilities. The OSI model serves as a reference model for network communication and helps in the design, implementation, and troubleshooting of networks by providing a clear separation of concerns and a common language for networking professionals.
+
+Here are the seven layers of the OSI model, along with their functions and how they relate to network communication:
+
+1.Physical Layer: This layer deals with the physical medium and hardware, including cables, switches, and network interface cards. It defines the electrical and mechanical properties of the network, such as voltage levels and physical connections.
+
+2.Data Link Layer: The data link layer is responsible for addressing, framing, and error detection. It ensures that data is transmitted reliably between directly connected nodes, defining how data is packaged into frames and how they are sent over the physical medium.
+
+3.Network Layer: The network layer is primarily concerned with routing and addressing. It determines how data packets should be routed from the source to the destination across the network, using logical addressing, such as IP addresses.
+
+4.Transport Layer: This layer is responsible for end-to-end communication between hosts. It provides mechanisms for error detection, flow control, and data segmentation, ensuring that data is reliably delivered from one host to another. The Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) operate at this layer.
+
+5.Session Layer: The session layer manages the establishment, maintenance, and termination of communication sessions between two devices. It provides services for synchronization, checkpointing, and recovery in case of network failures.
+
+6.Presentation Layer: The presentation layer is responsible for data translation, encryption, and compression. It ensures that data is in a format that can be understood by the application layer. It handles tasks like data encryption, character encoding, and data compression.
+
+7.Application Layer: The application layer is the topmost layer and is closest to the end-user. It provides network services directly to applications, allowing users to interact with the network. Common application layer protocols include HTTP, FTP, SMTP, and DNS.
+
+The OSI model serves as a reference point for understanding network communication because it breaks down the complex process of data transmission into distinct, manageable layers. Each layer performs a specific set of functions, and communication between layers is well-defined. When data is transmitted over a network, it passes through each layer, with each layer performing its designated tasks. The model provides a common framework for understanding and troubleshooting network issues, as it allows network professionals to isolate problems to a specific layer, making it easier to identify and address issues in the network stack. Additionally, the OSI model provides a foundation for the development of network protocols, as it specifies what each layer should do and how they should interact.

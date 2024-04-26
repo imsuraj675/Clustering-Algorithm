@@ -1,0 +1,7 @@
+An entity set in an ER model is a collection of entities of the same type. It groups together instances of a particular entity, and it is an abstract representation of all instances of that entity in the real world. Entity sets are a way to classify and organize entities based on their common characteristics and attributes.
+
+Entity: An entity is a single occurrence or instance of a specific object or concept in the real world. For example, a specific "Employee" or a particular "Customer" in a database would be considered individual entities.
+
+Entity Set: An entity set, on the other hand, represents the entire class or category of entities of a particular type. It doesn't refer to a specific instance but rather encompasses all possible instances of that type. For instance, the "Employee" entity set would include all employees in an organization, not just one specific employee.
+
+Entity sets are useful in database modeling to define the scope and boundaries of the data that the database will manage. When designing an ER diagram, you may identify various entity sets and specify their attributes and relationships. These entity sets help in structuring the database, organizing data, and establishing how different types of information are related to each other. In the diagram, entity sets are typically represented as rectangles, with their attributes listed inside.

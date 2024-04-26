@@ -1,0 +1,23 @@
+Referential integrity is a critical concept in database management that ensures the consistency and accuracy of data in a relational database. It enforces a set of key principles that maintain the relationships between tables and entities, preserving the integrity of the data. In an Entity-Relationship (ER) model, referential integrity is maintained through several principles and techniques. Here are the key principles and how they are maintained:
+
+Key Principles of Referential Integrity:
+
+Entity Relationships: Referential integrity is based on the relationships between entities. In an ER model, these relationships are represented as lines connecting entities, typically with a crow's foot notation. Each relationship defines how entities are linked.
+
+Foreign Keys: A foreign key is a critical element in maintaining referential integrity. It is a field or attribute in a table (the referencing table) that is used to link to the primary key of another table (the referenced table). Foreign keys establish the relationships between tables.
+
+Primary Keys: The primary key is a unique identifier for each record in a table. It is used as the basis for foreign keys in related tables. Primary keys ensure that each record is uniquely identifiable.
+
+Cascading Actions: Cascading actions are actions that occur when records are updated or deleted in a referenced table, and they affect related records in the referencing table. The two primary cascading actions are:
+
+Cascade Update: When the primary key value in the referenced table is updated, the corresponding foreign key values in the referencing table are automatically updated to maintain the relationship.
+Cascade Delete: When a record in the referenced table is deleted, related records in the referencing table can also be automatically deleted to ensure data consistency.
+How Referential Integrity is Maintained in an ER Model:
+
+Entity Relationships: In an ER model, relationships are defined between entities using appropriate notation. The use of lines and symbols in the diagram represents the nature and cardinality of the relationships.
+
+Foreign Keys: In an ER model, foreign keys are depicted as attributes in the entity where the relationship originates. These attributes are associated with the referenced entity or table. The foreign key in the referencing entity refers to the primary key in the referenced entity.
+
+Primary Keys: Primary keys are represented as unique identifiers within entities or tables in the ER model. They ensure that each record is uniquely identifiable.
+
+Cascading Actions: Cascading actions are implemented at the database management system level rather than explicitly in the ER model. When designing the database schema based on the ER model, you can specify cascading actions to maintain referential integrity. For example, you can set up cascade delete or cascade update rules when defining constraints and relationships in your database schema.

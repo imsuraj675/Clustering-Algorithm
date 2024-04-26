@@ -1,0 +1,15 @@
+In the context of Entity-Relationship (ER) modeling and relational databases, a superkey is a set of one or more attributes (columns) in a relation (table) that can be used to uniquely identify a tuple (row) within that relation. A superkey is a fundamental concept in database design and is closely related to the concept of keys and the uniqueness of data.
+
+Here are some key points about superkeys:
+
+Uniqueness: A superkey must guarantee the uniqueness of rows within a relation. This means that for any given set of attribute values in the superkey, there should be no two rows with the same combination of values.
+
+Attribute Combination: A superkey can consist of one or more attributes. In many cases, a superkey may include a single attribute, and it can also be a composite superkey that comprises two or more attributes.
+
+Minimality: A superkey is typically minimal, meaning that no subset of the attributes in the superkey should provide the same uniqueness. In other words, removing any attribute from the superkey should result in a loss of uniqueness.
+
+Candidate Key: A superkey that contains the fewest possible attributes needed to uniquely identify rows is called a candidate key. Candidate keys are prime candidates for being chosen as the primary key of a relation, as they provide a unique identifier for each tuple.
+
+Primary Key: From the candidate keys, one is selected as the primary key, which becomes the official, unique identifier for the relation. It is used to establish relationships with other tables, enforce referential integrity, and maintain data consistency.
+
+Functional Dependency: Superkeys are closely related to functional dependencies. A superkey represents a functional dependency, where the values of the attributes in the superkey determine the values of all other attributes in the row.

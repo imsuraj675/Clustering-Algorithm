@@ -1,0 +1,15 @@
+A network hub is a basic networking device used to connect multiple devices in a local area network (LAN). It operates at the physical layer (Layer 1) of the OSI model, and its primary function is to simply receive incoming data frames on one port and broadcast or replicate them to all other ports. While hubs were once widely used in early network setups, they have become less common in modern networks for several reasons:
+
+Lack of Intelligence: Network hubs lack the intelligence and decision-making capabilities found in more advanced networking devices like switches and routers. Hubs don't make any decisions about where to forward data; they broadcast everything to all connected devices, causing network congestion and inefficiency.
+
+Collision Domains: In a hub-based network, all devices connected to the hub share a single collision domain. This means that if multiple devices attempt to transmit data simultaneously, collisions can occur, leading to data retransmissions and reduced network performance.
+
+Data Security: Hubs do not provide any data isolation or segmentation. All data sent across the network is visible to every device connected to the hub, making it susceptible to eavesdropping and unauthorized access. This lack of security is a significant concern in today's networks, where data privacy and protection are paramount.
+
+Limited Bandwidth: Hubs operate at the lowest OSI layer (physical layer), and they do not perform any traffic management or data rate control. As a result, they provide limited bandwidth and do not offer the ability to prioritize traffic, leading to inefficient use of network resources.
+
+Inefficient Use of Resources: Hubs are inefficient in terms of bandwidth utilization. When a device sends data to a hub, the hub broadcasts that data to all connected devices, even if the data is intended for a single recipient. This redundancy contributes to network congestion and degrades overall performance.
+
+Transition to Switches: The primary reason for the decline in hub usage is the widespread adoption of network switches. Network switches are much more intelligent, efficient, and capable of handling modern network traffic. Unlike hubs, switches make forwarding decisions based on MAC addresses, segment networks into collision domains, and provide greater bandwidth and security.
+
+In modern networks, switches have largely replaced hubs. Switches offer improved performance, security, and scalability, making them better suited for the requirements of today's data-intensive and security-conscious environments. Hubs are now considered outdated technology and are rarely used in contemporary network designs.

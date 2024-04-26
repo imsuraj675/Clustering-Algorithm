@@ -1,0 +1,25 @@
+In database design, "candidate keys" and "primary keys" are two fundamental concepts related to the identification of unique records in a table. While they are closely related, they serve distinct purposes and have specific characteristics. Here's a description of the difference between candidate keys and primary keys:
+
+Candidate Keys:
+
+Uniqueness: Candidate keys are one or more columns (attributes) within a table that uniquely identify each record (row) in the table. This means that no two records can have the same combination of values in the candidate key columns.
+
+Multiple Possibilities: A table may have multiple candidate keys. Each candidate key is a set of columns that can be used to uniquely identify records. For example, in a "Person" table, both the "Social Security Number" and "Email Address" columns might be candidate keys.
+
+No Null Values: Columns that are part of a candidate key cannot contain NULL values because NULL values are not considered when determining uniqueness.
+
+Role in Database Design: Candidate keys play a crucial role in the normalization process, helping to ensure that data is organized efficiently and redundancies are minimized. They are considered during the design phase to identify possible keys for a table.
+
+Selection of a Primary Key: From the set of candidate keys, one is chosen as the primary key. This decision is typically based on factors such as simplicity, stability, and ease of use. The primary key is used to establish relationships between tables and as a reference point for foreign keys in related tables.
+
+Primary Key:
+
+Uniqueness and Uniqueness Enforcement: The primary key is a specific candidate key chosen as the main means of uniquely identifying records in a table. It enforces the uniqueness constraint on the table, ensuring that no two records share the same values in the primary key columns.
+
+Existence and Use in Relationships: The primary key is essential for establishing relationships between tables in a database. It serves as the reference point for foreign keys in related tables, allowing for data integrity and referential integrity constraints.
+
+Nullable or Non-Nullable: A primary key can consist of one or more columns, and these columns can be either nullable or non-nullable, depending on the specific requirements of the database design.
+
+Auto-Incrementing or Generated Values: In many cases, primary keys are implemented using auto-incrementing or generated values (e.g., an identity column in SQL Server or a serial column in PostgreSQL). This simplifies the process of generating unique values for the primary key.
+
+Stability: The primary key is expected to be stable and unchanging over time. Changing the values of the primary key can have significant implications for data integrity and relationships with other tables.

@@ -1,0 +1,26 @@
+LAN, MAN, and WAN are acronyms that describe different types of computer networks based on their geographical scope and size. Here are the definitions and examples of each:
+
+1.LAN (Local Area Network):
+
+Definition: A Local Area Network (LAN) is a network that covers a relatively small geographic area, such as a single building, a campus, or a small group of nearby buildings. LANs are characterized by high data transfer rates and are typically used for connecting devices within a limited geographical area.
+Examples:
+Home Network: A LAN used in a home to connect computers, smartphones, tablets, printers, and other devices.
+Office LAN: LANs in office buildings that connect workstations, servers, printers, and other devices to share resources and facilitate communication.
+School Campus Network: A LAN connecting computers and devices within a school or university campus for educational purposes.
+
+2.MAN (Metropolitan Area Network):
+
+Definition: A Metropolitan Area Network (MAN) is a network that covers a larger geographic area than a LAN but is still confined to a city or a metropolitan region. MANs are used to connect multiple LANs within a city to provide high-speed data connectivity over a wider area.
+Examples:
+Citywide Fiber Network: A MAN that connects multiple LANs and data centers within a city to support high-speed internet access and interconnect businesses and government offices.
+Cable TV Network: Some cable TV providers use MANs to provide internet services over a metropolitan area.
+University Campus Network: If a university spans multiple campuses within a city, a MAN can connect the LANs of these campuses to provide seamless network access.
+
+3.WAN (Wide Area Network):
+
+Definition: A Wide Area Network (WAN) is a network that covers a large geographic area, which can span cities, countries, or even continents. WANs are used to connect LANs and MANs over long distances and are often built using public or private telecommunications services.
+Examples:
+The Internet: The largest and most well-known WAN, connecting LANs, MANs, and devices worldwide. It interconnects people, businesses, and organizations across the globe.
+Enterprise Wide Area Network: Large organizations with multiple branches or offices in different cities or countries use WANs to connect their geographically dispersed LANs.
+Global Telecommunications Networks: Telecommunications companies build vast WANs to provide long-distance data and voice communication services to consumers and businesses.
+These three network types, LAN, MAN, and WAN, represent different scales and geographic coverage, with LANs being the smallest, MANs covering an intermediate range, and WANs encompassing the largest and most extensive networks. The choice of network type depends on the specific communication needs and geographical scope of the organization or network users.

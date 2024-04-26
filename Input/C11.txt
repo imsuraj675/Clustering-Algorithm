@@ -1,0 +1,13 @@
+In the context of Entity-Relationship (ER) modeling and relational databases, a candidate key is a set of attributes (or columns) within an entity or relation that uniquely identifies each individual entity instance (tuple or row) in the database. Candidate keys are essential for maintaining data integrity, ensuring the uniqueness of data, and helping establish relationships between tables. Here are the key points to understand about candidate keys:
+
+Uniqueness: A candidate key must guarantee the uniqueness of each entity instance. This means that for any given combination of values in the attributes of the candidate key, there should be no two instances with the same combination of values.
+
+Attribute Combination: A candidate key can be a single attribute or a combination of multiple attributes. It's not uncommon for candidate keys to be composed of multiple attributes (composite keys) when a single attribute alone cannot provide the required uniqueness.
+
+Minimality: Candidate keys should be minimal, meaning that removing any attribute from the candidate key would result in a loss of uniqueness. In other words, a candidate key should not contain redundant attributes.
+
+Primary Key: From the set of candidate keys, one is chosen as the primary key. The primary key is the official, unique identifier for the entity or relation and is used to establish relationships with other tables and enforce referential integrity constraints. While multiple candidate keys may exist, the primary key is selected as the one to be used in practice.
+
+Functional Dependency: Candidate keys are closely related to functional dependencies. A candidate key represents a functional dependency where the values of the attributes in the candidate key determine the values of all other attributes in the entity. This is a fundamental concept in relational database theory.
+
+Alternative Identifiers: Candidate keys can be thought of as alternative identifiers for an entity. While there can be only one primary key, the other candidate keys are still unique identifiers and can be used for various purposes, such as creating alternate indexes on the table.

@@ -1,0 +1,37 @@
+A Uniform Resource Locator (URL) is a web address used to identify and locate resources on the internet. URLs are the fundamental means by which web browsers and internet users access websites, web pages, files, and other online resources. A URL consists of several components that specify the resource's location and the method for accessing it. Here's how a URL works and the key components that identify web resources:
+
+Components of a URL:
+
+Scheme or Protocol: This part of the URL specifies the protocol or method used to access the resource. Common schemes include:
+
+http:// or https://: Used for accessing web pages and web content. "http://" represents the standard Hypertext Transfer Protocol, while "https://" indicates a secure connection using HTTP with encryption (TLS/SSL).
+ftp://: Used for File Transfer Protocol, which is often used for transferring files over the internet.
+mailto: or tel: Specifies an email address or telephone number, enabling users to send emails or initiate phone calls.
+file://: Used to access local files on a device or within a network.
+Domain or Host: This part of the URL specifies the domain name or IP address of the server that hosts the resource. The domain name is human-readable (e.g., www.example.com), while the IP address is numerical (e.g., 192.0.2.1).
+
+Port: (Optional) The port number indicates the specific network port to use for communication with the server. Common ports include 80 for HTTP and 443 for HTTPS. If the port is not specified, the default port for the selected scheme is used.
+
+Path: The path component specifies the location of the resource on the server. It often includes a file or directory structure that identifies the specific web page or file to access. For example, "/products/index.html" specifies the "index.html" file located in the "products" directory on the server.
+
+Query: (Optional) The query component is used for passing parameters or data to the server. It is often used in web applications and search queries. For example, "?id=123&category=electronics" may be used to pass parameters to a dynamic web page.
+
+Fragment or Anchor: (Optional) The fragment component, often preceded by a "#" symbol, identifies a specific section or anchor point within a web page. It allows users to navigate directly to a particular section of a document. For example, "#section2" may scroll the page to section 2.
+
+How URLs Identify Web Resources:
+
+URLs play a crucial role in identifying and accessing web resources by combining these components. When you enter a URL into a web browser, the browser uses the following steps to identify and access the resource:
+
+It parses the URL to separate the components, including the scheme, domain, port, path, query, and fragment.
+
+The browser resolves the domain name to an IP address using the Domain Name System (DNS) if needed.
+
+It establishes a connection to the server using the specified protocol and port.
+
+The browser sends an HTTP request (for HTTP or HTTPS URLs) to the server, including the path and query components if applicable.
+
+The server processes the request, locates the requested resource based on the path and query parameters, and sends a response back to the browser.
+
+The browser renders the web page or resource as requested, and users can interact with it.
+
+In summary, a URL is a structured web address that identifies and locates resources on the internet. Its components, including the scheme, domain, port, path, query, and fragment, determine how the resource is accessed and presented to users. URLs are fundamental for web navigation and resource retrieval in web browsers and other internet-enabled application.

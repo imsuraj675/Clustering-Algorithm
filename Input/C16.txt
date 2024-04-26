@@ -1,0 +1,19 @@
+In Entity-Relationship (ER) modeling and database design, a "simple attribute" and a "composite attribute" are two types of attributes used to describe the characteristics of entities. They differ in terms of their structure and the level of detail they capture. Here's a description of the differences between these two types of attributes:
+
+Simple Attribute:
+
+Atomic Unit: A simple attribute is an atomic unit of data, meaning it cannot be divided into sub-parts. It represents a single, indivisible piece of information. For example, a "Phone Number" attribute is typically a simple attribute because it represents a single phone number, not a combination of multiple phone numbers.
+
+Uniqueness: Simple attributes are typically not unique within the entity. Multiple instances of the entity may have the same values for a simple attribute. For example, multiple customers might have the same "Last Name."
+
+Single Value: A simple attribute can hold only one value at a time. It is associated with a single data item, which can be a number, text, date, or another atomic value.
+
+Composite Attribute:
+
+Composed of Sub-Parts: A composite attribute, on the other hand, is composed of multiple sub-parts or components, each of which can be considered a simple attribute in its own right. These sub-parts are related and together form the composite attribute. For example, an "Address" attribute is composite because it consists of sub-parts like "Street," "City," "State," and "ZIP Code."
+
+Structure and Hierarchy: Composite attributes introduce a hierarchical or structured approach to data representation. They allow you to capture complex data that can be broken down into smaller, related pieces.
+
+Uniqueness of Sub-Parts: The sub-parts of a composite attribute can have different levels of uniqueness. For instance, in an "Address" composite attribute, while the combination of "Street," "City," "State," and "ZIP Code" may be unique, the "City" or "State" sub-parts alone may not be unique within the entity.
+
+Multiple Values: Unlike simple attributes, composite attributes can hold multiple values at once, as they are made up of several related components. Each component can store a distinct value. For example, a composite "Address" attribute can hold values for "Street," "City," "State," and "ZIP Code."

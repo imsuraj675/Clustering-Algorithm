@@ -1,0 +1,33 @@
+HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer Protocol Secure) are two protocols used for web communication. They play a fundamental role in how web browsers and web servers exchange information, request and deliver web content, and ensure data security. Here's an explanation of their roles:
+
+HTTP (Hypertext Transfer Protocol):
+
+Role in Web Communication: HTTP is the foundation of data communication on the World Wide Web. It defines the rules and standards for web browsers and web servers to exchange information and request and deliver web content. When you enter a URL in your web browser or click a link, the browser sends an HTTP request to the web server to retrieve the requested web page.
+
+Stateless Protocol: HTTP is a stateless protocol, which means that each request-response cycle is independent of previous interactions. Each HTTP request from a client to a server and the corresponding response from the server do not inherently carry information about the previous interactions.
+
+Port: HTTP typically operates over port 80, and when you enter a URL without specifying a protocol (e.g., http://example.com), the browser assumes you are using HTTP.
+
+Not Secure: Data transmitted over HTTP is not encrypted, making it vulnerable to interception and eavesdropping. For this reason, sensitive information, such as login credentials and payment details, should not be transmitted over plain HTTP.
+
+HTTPS (Hypertext Transfer Protocol Secure):
+
+Role in Web Communication: HTTPS is a secure version of HTTP. It ensures that data transmitted between a web browser and a web server is encrypted, making it significantly more secure compared to plain HTTP. HTTPS uses cryptographic protocols, such as SSL (Secure Sockets Layer) or TLS (Transport Layer Security), to secure data transmission.
+
+Encryption: When you connect to a website using HTTPS (e.g., https://example.com), the data exchanged between your browser and the server is encrypted. This encryption makes it extremely difficult for unauthorized parties to intercept and decipher the data.
+
+Secure Authentication: HTTPS uses digital certificates, provided by trusted Certificate Authorities (CAs), to authenticate the identity of the web server. This helps users confirm that they are connecting to the legitimate website and not a malicious imposter.
+
+Port: HTTPS operates over port 443, and when you use this protocol, you should see a padlock icon or other indicators in your browser to signify a secure connection.
+
+Data Integrity: HTTPS ensures the integrity of the data, meaning that it cannot be tampered with during transmission. Any modification to the data would result in the connection being invalidated.
+
+Key Differences:
+
+Security: The primary difference is security. HTTP is not secure, while HTTPS encrypts data for secure transmission.
+
+Encryption: HTTPS uses encryption protocols to protect data, while HTTP does not.
+
+Authentication: HTTPS verifies the authenticity of the web server using digital certificates, which HTTP does not do.
+
+In summary, HTTP and HTTPS are protocols for web communication. HTTP is the standard, unsecured protocol, while HTTPS is a secure version that encrypts data and provides authentication, making it the preferred choice for transmitting sensitive information and ensuring privacy and security on the web.
